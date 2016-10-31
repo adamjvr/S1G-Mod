@@ -1,4 +1,4 @@
-update=10/31/2016 12:32:44 AM
+update=10/29/2016 10:09:38 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,13 +60,3 @@ LibName28=contrib
 LibName29=valves
 LibName30=C:/Users/adam/Documents/GitHub/footprints/Libraries - KiCAD/HydroPWNics_Lib
 LibName31=C:/Users/adam/Documents/GitHub/KiCAD-OnHand-Lib/OnHand-Components-Sym
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=60
-ERC_TestSimilarLabels=1
