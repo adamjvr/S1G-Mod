@@ -804,6 +804,6 @@ F 3 "" H 675 3325 50  0000 C CNN
 	1    675  3325
 	1    0    0    -1  
 $EndComp
-Text Notes 2375 975  0    197  ~ 39
-S1G-Mod 915MHZ Sub 1GHZ RF RX/TX Module
+Text Notes 2650 1000 0    197  ~ 39
+S1G-Mod 433MHZ Sub 1GHZ RF RX/TX Module
 $EndSCHEMATC
