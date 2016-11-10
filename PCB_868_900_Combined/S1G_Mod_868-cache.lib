@@ -318,6 +318,38 @@ X 10 10 350 -150 197 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# 36103205
+#
+DEF 36103205 SH 0 40 Y Y 1 F N
+F0 "SH" -500 200 60 H V C CNN
+F1 "36103205" 350 200 60 H V C CNN
+F2 "PCB_Footprints:36103205" -650 550 60 H I C CNN
+F3 "http://katalog.we-online.de/pbs/datasheet/36103205.pdf" -650 650 60 H I C CNN
+F4 "3.49000" -50 750 60 H I C CNN "Cost"
+F5 "9 Nov 2016" 150 950 60 H I C CNN "Date Created"
+F6 "9 Nov 2016" 150 950 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 250 1050 60 H I C CNN "Designer"
+F8 "2.5mm" 350 1150 60 H I C CNN "Height"
+F9 "Yes" 450 1250 60 H I C CNN "RHoS?"
+F10 "Wurth Electronics Inc" 550 1350 60 H I C CNN "MFR"
+F11 "36103205" 650 1450 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 750 1550 60 H I C CNN "Mounting"
+F13 "None" 850 1650 60 H I C CNN "Pin Count#"
+F14 "Active" 950 1750 60 H I C CNN "Status"
+F15 "N/A" 1050 1850 60 H I C CNN "Tolerance"
+F16 "RF Shield" 1150 1950 60 H I C CNN "Type"
+F17 "N/A" 1250 2050 60 H I C CNN "Voltage"
+F18 "N/A" 1350 2150 60 H I C CNN "Wattage"
+F19 "N/A" 1450 2250 60 H I C CNN "Component-Value"
+F20 "RF Shield Frame 0.827\" (21.00mm) X 0.827\" (21.00mm) Surface Mount" 1550 2350 60 H I C CNN "Description"
+DRAW
+T 0 0 -100 60 0 0 0 RF~Shield~SMT~Frame Normal 0 C C
+S -550 150 600 -200 0 1 0 f
+S 550 -200 550 -200 0 1 0 N
+X GND 1 -750 0 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # ABM10-166-12.000MHZ-T3
 #
 DEF ABM10-166-12.000MHZ-T3 X 0 40 Y Y 1 F N
