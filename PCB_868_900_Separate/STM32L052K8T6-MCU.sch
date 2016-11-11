@@ -36,7 +36,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
-Title ""
+Title "STM32L052C8T6 - MCU for COMS/Config"
 Date "2016-11-07"
 Rev "0.1a"
 Comp "GhostPCB"
@@ -45,13 +45,13 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 9400 2900 2    60   Input ~ 0
+Text HLabel 7175 5400 2    60   Input ~ 0
 SPI_CS
-Text HLabel 9400 3200 2    60   Input ~ 0
+Text HLabel 7175 5700 2    60   Input ~ 0
 SPI_MOSI
-Text HLabel 9400 3100 2    60   Input ~ 0
+Text HLabel 7175 5600 2    60   Input ~ 0
 SPI_MISO
-Text HLabel 9400 3000 2    60   Input ~ 0
+Text HLabel 7175 5500 2    60   Input ~ 0
 SPI_SCLK
 Text HLabel 9400 2800 2    60   Input ~ 0
 MCU_IRQ
@@ -382,10 +382,10 @@ F 20 "USB - micro AB Receptacle Connector 5 Position Surface Mount, Right Angle,
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR45
+L GND #PWR46
 U 1 1 58221381
 P 9975 3900
-F 0 "#PWR45" H 9975 3650 50  0001 C CNN
+F 0 "#PWR46" H 9975 3650 50  0001 C CNN
 F 1 "GND" H 9980 3727 50  0000 C CNN
 F 2 "" H 9975 3900 50  0000 C CNN
 F 3 "" H 9975 3900 50  0000 C CNN
@@ -546,10 +546,10 @@ F 20 "RES SMD 47K OHM 5% 1/16W 0402" H 11000 6275 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR44
+L GND #PWR45
 U 1 1 58223B2D
 P 9600 4775
-F 0 "#PWR44" H 9600 4525 50  0001 C CNN
+F 0 "#PWR45" H 9600 4525 50  0001 C CNN
 F 1 "GND" H 9605 4602 50  0000 C CNN
 F 2 "" H 9600 4775 50  0000 C CNN
 F 3 "" H 9600 4775 50  0000 C CNN
@@ -557,10 +557,10 @@ F 3 "" H 9600 4775 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR43
+L GND #PWR44
 U 1 1 58224185
 P 9050 4375
-F 0 "#PWR43" H 9050 4125 50  0001 C CNN
+F 0 "#PWR44" H 9050 4125 50  0001 C CNN
 F 1 "GND" H 9055 4202 50  0000 C CNN
 F 2 "" H 9050 4375 50  0000 C CNN
 F 3 "" H 9050 4375 50  0000 C CNN
@@ -609,48 +609,33 @@ $EndComp
 $Comp
 L LTST-C193TBKT-5A LED2
 U 1 1 58226A3F
-P 7900 5150
-F 0 "LED2" V 7800 4175 60  0000 L CNN
-F 1 "LTST-C193TBKT-5A" V 7900 4175 60  0000 L CNN
-F 2 "PCB_Footprints:LED0603" H 9325 7075 60  0001 C CNN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2004-060/P_100_LTST-C193TBKT-5A.pdf" H 9525 7200 60  0001 C CNN
-F 4 "0.06102 @ 6000" H 7750 5350 60  0001 C CNN "Cost"
-F 5 "8 Sept 2016" H 7850 5450 60  0001 C CNN "Date Created"
-F 6 "8 Sept 2016" H 7950 5550 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 8050 5650 60  0001 C CNN "Designer"
-F 8 "0.55mm" H 8150 5750 60  0001 C CNN "Height"
-F 9 "Yes" H 8250 5850 60  0001 C CNN "RhoS?"
-F 10 "Lite-On Inc" H 8350 5950 60  0001 C CNN "MFR"
-F 11 "LTST-C193TBKT-5A" H 8450 6050 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 8550 6150 60  0001 C CNN "Mounting"
-F 13 "2" H 8650 6250 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 8750 6350 60  0001 C CNN "Status"
-F 15 "N/A" H 8850 6450 60  0001 C CNN "Tolerance"
-F 16 "0603 LED" H 8950 6550 60  0001 C CNN "Type"
-F 17 "2.8V Forward Voltage" H 9050 6650 60  0001 C CNN "Voltage"
-F 18 "N/A" H 9150 6750 60  0001 C CNN "Wattage"
-F 19 "N/A" H 9250 6850 60  0001 C CNN "Component-Value"
-F 20 "Blue 470nm LED Indication - Discrete 2.8V 0603 (1608 Metric)" H 9350 6950 60  0001 C CNN "Description"
-	1    7900 5150
+P 7900 5750
+F 0 "LED2" V 7800 4775 60  0000 L CNN
+F 1 "LTST-C193TBKT-5A" V 7900 4775 60  0000 L CNN
+F 2 "PCB_Footprints:LED0603" H 9325 7675 60  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2004-060/P_100_LTST-C193TBKT-5A.pdf" H 9525 7800 60  0001 C CNN
+F 4 "0.06102 @ 6000" H 7750 5950 60  0001 C CNN "Cost"
+F 5 "8 Sept 2016" H 7850 6050 60  0001 C CNN "Date Created"
+F 6 "8 Sept 2016" H 7950 6150 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 8050 6250 60  0001 C CNN "Designer"
+F 8 "0.55mm" H 8150 6350 60  0001 C CNN "Height"
+F 9 "Yes" H 8250 6450 60  0001 C CNN "RhoS?"
+F 10 "Lite-On Inc" H 8350 6550 60  0001 C CNN "MFR"
+F 11 "LTST-C193TBKT-5A" H 8450 6650 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 8550 6750 60  0001 C CNN "Mounting"
+F 13 "2" H 8650 6850 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 8750 6950 60  0001 C CNN "Status"
+F 15 "N/A" H 8850 7050 60  0001 C CNN "Tolerance"
+F 16 "0603 LED" H 8950 7150 60  0001 C CNN "Type"
+F 17 "2.8V Forward Voltage" H 9050 7250 60  0001 C CNN "Voltage"
+F 18 "N/A" H 9150 7350 60  0001 C CNN "Wattage"
+F 19 "N/A" H 9250 7450 60  0001 C CNN "Component-Value"
+F 20 "Blue 470nm LED Indication - Discrete 2.8V 0603 (1608 Metric)" H 9350 7550 60  0001 C CNN "Description"
+	1    7900 5750
 	0    1    1    0   
 $EndComp
 Text HLabel 8000 3500 0    60   Input ~ 0
 VBUS
-Text Label 8150 5975 0    60   ~ 0
-USART1_TX
-Text Label 8150 5900 0    60   ~ 0
-USART1_RX
-$Comp
-L GND #PWR41
-U 1 1 582458F9
-P 7975 6125
-F 0 "#PWR41" H 7975 5875 50  0001 C CNN
-F 1 "GND" H 7980 5952 50  0000 C CNN
-F 2 "" H 7975 6125 50  0000 C CNN
-F 3 "" H 7975 6125 50  0000 C CNN
-	1    7975 6125
-	1    0    0    -1  
-$EndComp
 Text Label 4200 4850 0    60   ~ 0
 I2C1_SDA
 Text Label 4200 4750 0    60   ~ 0
@@ -719,96 +704,96 @@ $EndComp
 $Comp
 L RC1005F102CS R7
 U 1 1 5824F7AF
-P 7900 4600
-F 0 "R7" V 7953 4522 60  0000 R CNN
-F 1 "RC1005F102CS" H 7900 4847 60  0001 C CNN
-F 2 "PCB_Footprints:R0402" H 7500 4850 60  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 7600 5050 60  0001 C CNN
-F 4 "0.00173 @ 5000" H 9450 6550 60  0001 C CNN "Cost"
-F 5 "5 Sept 2016" H 7800 5150 60  0001 C CNN "Date Created"
-F 6 "5 Sept 2016" H 7900 5250 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 8000 5350 60  0001 C CNN "Designer"
-F 8 "0.4mm" H 8100 5450 60  0001 C CNN "Height"
-F 9 "Yes" H 8200 5550 60  0001 C CNN "RHoS?"
-F 10 "Samsung Electro-Mechanics America, Inc." H 8300 5650 60  0001 C CNN "MFR"
-F 11 "RC1005F102CS" H 8400 5750 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 8500 5850 60  0001 C CNN "Mounting"
-F 13 "2" H 8600 5950 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 8700 6050 60  0001 C CNN "Status"
-F 15 "%" H 8800 6150 60  0001 C CNN "Tolerance"
-F 16 "passive" H 8900 6250 60  0001 C CNN "Type"
-F 17 "N/A" H 9000 6350 60  0001 C CNN "Voltage"
-F 18 "1/16" H 9100 6450 60  0001 C CNN "Wattage"
-F 19 "1k" V 7847 4522 60  0000 R CNN "Component-Value"
-F 20 "RES SMD 1K OHM 1% 1/16W 0402" H 9300 6650 60  0001 C CNN "Description"
-	1    7900 4600
+P 7900 5200
+F 0 "R7" V 7953 5122 60  0000 R CNN
+F 1 "RC1005F102CS" H 7900 5447 60  0001 C CNN
+F 2 "PCB_Footprints:R0402" H 7500 5450 60  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 7600 5650 60  0001 C CNN
+F 4 "0.00173 @ 5000" H 9450 7150 60  0001 C CNN "Cost"
+F 5 "5 Sept 2016" H 7800 5750 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 7900 5850 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 8000 5950 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 8100 6050 60  0001 C CNN "Height"
+F 9 "Yes" H 8200 6150 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 8300 6250 60  0001 C CNN "MFR"
+F 11 "RC1005F102CS" H 8400 6350 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 8500 6450 60  0001 C CNN "Mounting"
+F 13 "2" H 8600 6550 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 8700 6650 60  0001 C CNN "Status"
+F 15 "%" H 8800 6750 60  0001 C CNN "Tolerance"
+F 16 "passive" H 8900 6850 60  0001 C CNN "Type"
+F 17 "N/A" H 9000 6950 60  0001 C CNN "Voltage"
+F 18 "1/16" H 9100 7050 60  0001 C CNN "Wattage"
+F 19 "1k" V 7847 5122 60  0000 R CNN "Component-Value"
+F 20 "RES SMD 1K OHM 1% 1/16W 0402" H 9300 7250 60  0001 C CNN "Description"
+	1    7900 5200
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR42
+L GND #PWR43
 U 1 1 58250111
-P 8025 5400
-F 0 "#PWR42" H 8025 5150 50  0001 C CNN
-F 1 "GND" H 8030 5227 50  0000 C CNN
-F 2 "" H 8025 5400 50  0000 C CNN
-F 3 "" H 8025 5400 50  0000 C CNN
-	1    8025 5400
+P 8025 6000
+F 0 "#PWR43" H 8025 5750 50  0001 C CNN
+F 1 "GND" H 8030 5827 50  0000 C CNN
+F 2 "" H 8025 6000 50  0000 C CNN
+F 3 "" H 8025 6000 50  0000 C CNN
+	1    8025 6000
 	1    0    0    -1  
 $EndComp
 $Comp
 L RC1005F102CS R8
 U 1 1 58251722
-P 8175 4600
-F 0 "R8" V 8228 4522 60  0000 R CNN
-F 1 "RC1005F102CS" H 8175 4847 60  0001 C CNN
-F 2 "PCB_Footprints:R0402" H 7775 4850 60  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 7875 5050 60  0001 C CNN
-F 4 "0.00173 @ 5000" H 9725 6550 60  0001 C CNN "Cost"
-F 5 "5 Sept 2016" H 8075 5150 60  0001 C CNN "Date Created"
-F 6 "5 Sept 2016" H 8175 5250 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 8275 5350 60  0001 C CNN "Designer"
-F 8 "0.4mm" H 8375 5450 60  0001 C CNN "Height"
-F 9 "Yes" H 8475 5550 60  0001 C CNN "RHoS?"
-F 10 "Samsung Electro-Mechanics America, Inc." H 8575 5650 60  0001 C CNN "MFR"
-F 11 "RC1005F102CS" H 8675 5750 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 8775 5850 60  0001 C CNN "Mounting"
-F 13 "2" H 8875 5950 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 8975 6050 60  0001 C CNN "Status"
-F 15 "%" H 9075 6150 60  0001 C CNN "Tolerance"
-F 16 "passive" H 9175 6250 60  0001 C CNN "Type"
-F 17 "N/A" H 9275 6350 60  0001 C CNN "Voltage"
-F 18 "1/16" H 9375 6450 60  0001 C CNN "Wattage"
-F 19 "1k" V 8122 4522 60  0000 R CNN "Component-Value"
-F 20 "RES SMD 1K OHM 1% 1/16W 0402" H 9575 6650 60  0001 C CNN "Description"
-	1    8175 4600
+P 8175 5200
+F 0 "R8" V 8228 5122 60  0000 R CNN
+F 1 "RC1005F102CS" H 8175 5447 60  0001 C CNN
+F 2 "PCB_Footprints:R0402" H 7775 5450 60  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 7875 5650 60  0001 C CNN
+F 4 "0.00173 @ 5000" H 9725 7150 60  0001 C CNN "Cost"
+F 5 "5 Sept 2016" H 8075 5750 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 8175 5850 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 8275 5950 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 8375 6050 60  0001 C CNN "Height"
+F 9 "Yes" H 8475 6150 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 8575 6250 60  0001 C CNN "MFR"
+F 11 "RC1005F102CS" H 8675 6350 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 8775 6450 60  0001 C CNN "Mounting"
+F 13 "2" H 8875 6550 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 8975 6650 60  0001 C CNN "Status"
+F 15 "%" H 9075 6750 60  0001 C CNN "Tolerance"
+F 16 "passive" H 9175 6850 60  0001 C CNN "Type"
+F 17 "N/A" H 9275 6950 60  0001 C CNN "Voltage"
+F 18 "1/16" H 9375 7050 60  0001 C CNN "Wattage"
+F 19 "1k" V 8122 5122 60  0000 R CNN "Component-Value"
+F 20 "RES SMD 1K OHM 1% 1/16W 0402" H 9575 7250 60  0001 C CNN "Description"
+	1    8175 5200
 	0    -1   -1   0   
 $EndComp
 $Comp
 L LTST-C191KGKT LED3
 U 1 1 5825223A
-P 8175 5150
-F 0 "LED3" V 8175 5200 60  0000 L CNN
-F 1 "LTST-C191KGKT" V 8325 5175 60  0000 L CNN
-F 2 "PCB_Footprints:LED0603" H 9600 7075 60  0001 C CNN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-228/S_110_LTST-C191KGKT.pdf" H 9800 7200 60  0001 C CNN
-F 4 "0.04040 @ 5000" H 8025 5350 60  0001 C CNN "Cost"
-F 5 "8 Sept 2016" H 8125 5450 60  0001 C CNN "Date Created"
-F 6 "8 Sept 2016" H 8225 5550 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 8325 5650 60  0001 C CNN "Designer"
-F 8 "0.55mm" H 8425 5750 60  0001 C CNN "Height"
-F 9 "Yes" H 8525 5850 60  0001 C CNN "RhoS?"
-F 10 "Lite-On Inc" H 8625 5950 60  0001 C CNN "MFR"
-F 11 "LTST-C191KGKT" H 8725 6050 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 8825 6150 60  0001 C CNN "Mounting"
-F 13 "2" H 8925 6250 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 9025 6350 60  0001 C CNN "Status"
-F 15 "N/A" H 9125 6450 60  0001 C CNN "Tolerance"
-F 16 "0603 LED" H 9225 6550 60  0001 C CNN "Type"
-F 17 "N/A" H 9325 6650 60  0001 C CNN "Voltage"
-F 18 "N/A" H 9425 6750 60  0001 C CNN "Wattage"
-F 19 "N/A" H 9525 6850 60  0001 C CNN "Component-Value"
-F 20 "Green 571nm LED Indication - Discrete 2V 0603 (1608 Metric)" H 9625 6950 60  0001 C CNN "Description"
-	1    8175 5150
+P 8175 5750
+F 0 "LED3" V 8175 5800 60  0000 L CNN
+F 1 "LTST-C191KGKT" V 8325 5775 60  0000 L CNN
+F 2 "PCB_Footprints:LED0603" H 9600 7675 60  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-228/S_110_LTST-C191KGKT.pdf" H 9800 7800 60  0001 C CNN
+F 4 "0.04040 @ 5000" H 8025 5950 60  0001 C CNN "Cost"
+F 5 "8 Sept 2016" H 8125 6050 60  0001 C CNN "Date Created"
+F 6 "8 Sept 2016" H 8225 6150 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 8325 6250 60  0001 C CNN "Designer"
+F 8 "0.55mm" H 8425 6350 60  0001 C CNN "Height"
+F 9 "Yes" H 8525 6450 60  0001 C CNN "RhoS?"
+F 10 "Lite-On Inc" H 8625 6550 60  0001 C CNN "MFR"
+F 11 "LTST-C191KGKT" H 8725 6650 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 8825 6750 60  0001 C CNN "Mounting"
+F 13 "2" H 8925 6850 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 9025 6950 60  0001 C CNN "Status"
+F 15 "N/A" H 9125 7050 60  0001 C CNN "Tolerance"
+F 16 "0603 LED" H 9225 7150 60  0001 C CNN "Type"
+F 17 "N/A" H 9325 7250 60  0001 C CNN "Voltage"
+F 18 "N/A" H 9425 7350 60  0001 C CNN "Wattage"
+F 19 "N/A" H 9525 7450 60  0001 C CNN "Component-Value"
+F 20 "Green 571nm LED Indication - Discrete 2V 0603 (1608 Metric)" H 9625 7550 60  0001 C CNN "Description"
+	1    8175 5750
 	0    1    1    0   
 $EndComp
 $Comp
@@ -850,13 +835,13 @@ F 3 "" H 4150 4375 50  0000 C CNN
 	1    4150 4375
 	1    0    0    -1  
 $EndComp
-Text Label 6600 5400 0    60   ~ 0
+Text Label 6650 2900 0    60   ~ 0
 SPI2_NSS
-Text Label 6600 5500 0    60   ~ 0
+Text Label 6650 3000 0    60   ~ 0
 SPI2_SCLK
-Text Label 6600 5600 0    60   ~ 0
+Text Label 6650 3100 0    60   ~ 0
 SPI2_MISO
-Text Label 6600 5700 0    60   ~ 0
+Text Label 6650 3200 0    60   ~ 0
 SPI2_MOSI
 $Comp
 L B3U-1000P SW2
@@ -897,13 +882,13 @@ Wire Wire Line
 Wire Wire Line
 	1700 2500 1500 2500
 Wire Wire Line
-	6500 2900 9400 2900
+	6500 2900 7225 2900
 Wire Wire Line
-	9400 3000 6500 3000
+	7225 3000 6500 3000
 Wire Wire Line
-	9400 3100 6500 3100
+	7225 3100 6500 3100
 Wire Wire Line
-	9400 3200 6500 3200
+	7225 3200 6500 3200
 Wire Wire Line
 	6500 2800 9400 2800
 Wire Wire Line
@@ -955,10 +940,6 @@ Wire Wire Line
 	8975 4375 9125 4375
 Connection ~ 9050 4375
 Wire Wire Line
-	7975 5975 8775 5975
-Wire Wire Line
-	7975 5900 8775 5900
-Wire Wire Line
 	4075 4750 4750 4750
 Wire Wire Line
 	4750 4850 4075 4850
@@ -982,20 +963,20 @@ Wire Wire Line
 Wire Wire Line
 	1400 5850 1500 5850
 Wire Wire Line
-	6500 4300 7900 4300
+	6500 4900 7900 4900
 Wire Wire Line
-	7900 5400 8175 5400
-Connection ~ 8025 5400
+	7900 6000 8175 6000
+Connection ~ 8025 6000
 Wire Wire Line
-	6500 4200 8175 4200
+	6500 4800 8175 4800
 Wire Wire Line
-	8175 4200 8175 4300
+	8175 4800 8175 4900
 Wire Wire Line
 	2500 2500 2900 2500
 Wire Wire Line
 	4200 2800 4750 2800
 Wire Wire Line
-	4750 2500 3100 2500
+	3100 2500 4750 2500
 Connection ~ 3450 2500
 Wire Wire Line
 	3100 2950 3825 2950
@@ -1024,72 +1005,6 @@ Connection ~ 3825 2500
 Wire Wire Line
 	4750 2500 4750 2700
 Connection ~ 4750 2600
-$Comp
-L B4B-PH-K-S(LF)(SN) J3
-U 1 1 5828E8ED
-P 7775 5975
-F 0 "J3" H 7725 6250 60  0000 C CNN
-F 1 "B4B-PH-K-S(LF)(SN)" H 8175 6175 60  0000 C CNN
-F 2 "PCB_Footprints:B4B-PH-K-S(LF)(SN)" H 7625 6050 60  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 7500 6350 60  0001 C CNN
-F 4 "0.09682 @ 5000" H 7600 6450 60  0001 C CNN "Cost"
-F 5 "9 Sept 2016" H 7700 6550 60  0001 C CNN "Date Created "
-F 6 "9 Sept 2016" H 7800 6650 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 7900 6750 60  0001 C CNN "Designer "
-F 8 "8mm" H 8000 6850 60  0001 C CNN "Height"
-F 9 "Yes" H 8100 6950 60  0001 C CNN "RHoS?"
-F 10 "JST Sales America Inc" H 8200 7050 60  0001 C CNN "MFR"
-F 11 "B4B-PH-K-S(LF)(SN)" H 8300 7150 60  0001 C CNN "MFR#"
-F 12 "Through Hole" H 8400 7250 60  0001 C CNN "Mounting"
-F 13 "4" H 8500 7350 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 8600 7450 60  0001 C CNN "Status"
-F 15 "N/A" H 8700 7550 60  0001 C CNN "Tolerance"
-F 16 "Through Hole vertical connector." H 8800 7650 60  0001 C CNN "Type"
-F 17 "N/A" H 8900 7750 60  0001 C CNN "Voltage"
-F 18 "N/A" H 9000 7850 60  0001 C CNN "Wattage"
-F 19 "N/A" H 9100 7950 60  0001 C CNN "Component-Value"
-F 20 "4 Positions Header, Shrouded Connector 0.079\" (2.00mm) Through Hole Tin" H 9200 8050 60  0001 C CNN "Description"
-	1    7775 5975
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR46
-U 1 1 5827380E
-P 10375 6300
-F 0 "#PWR46" H 10375 6050 50  0001 C CNN
-F 1 "GND" H 10380 6127 50  0000 C CNN
-F 2 "" H 10375 6300 50  0000 C CNN
-F 3 "" H 10375 6300 50  0000 C CNN
-	1    10375 6300
-	1    0    0    -1  
-$EndComp
-Text Label 10425 6200 0    60   ~ 0
-SPI2_MOSI
-Text Label 9425 6100 0    60   ~ 0
-SPI2_MISO
-Text Label 9400 6200 0    60   ~ 0
-SPI2_SCLK
-Text Label 9400 6300 0    60   ~ 0
-SPI2_NSS
-$Comp
-L CONN_02X03 P1
-U 1 1 5828FBE7
-P 10125 6200
-F 0 "P1" H 10125 6515 50  0000 C CNN
-F 1 "CONN_02X03" H 10125 6424 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03" H 10125 5000 50  0001 C CNN
-F 3 "" H 10125 5000 50  0000 C CNN
-	1    10125 6200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10750 6200 10375 6200
-Wire Wire Line
-	9300 6200 9875 6200
-Wire Wire Line
-	9300 6100 9875 6100
-Wire Wire Line
-	9300 6300 9875 6300
 $Comp
 L STM32L052C8T6 U3
 U 1 1 58295996
@@ -1217,7 +1132,7 @@ Wire Wire Line
 Wire Wire Line
 	3525 3700 4750 3700
 Wire Wire Line
-	3525 4200 2725 4200
+	2725 4200 3525 4200
 Wire Wire Line
 	3000 4100 3000 4200
 Connection ~ 3000 4200
@@ -1236,4 +1151,71 @@ F 3 "" H 3125 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 3125 4200
+$Comp
+L CONN_02X08 P1
+U 1 1 5823F6D4
+P 5575 6825
+F 0 "P1" H 5575 7390 50  0000 C CNN
+F 1 "CONN_02X08" H 5575 7299 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x08" H 5575 5625 50  0001 C CNN
+F 3 "" H 5575 5625 50  0000 C CNN
+	1    5575 6825
+	1    0    0    -1  
+$EndComp
+Text Label 6000 6975 0    60   ~ 0
+USART1_TX
+Text Label 6000 6875 0    60   ~ 0
+USART1_RX
+Wire Wire Line
+	5825 6975 6625 6975
+Wire Wire Line
+	5825 6875 6625 6875
+Text Label 5950 6775 0    60   ~ 0
+SPI2_MOSI
+Text Label 5925 6675 0    60   ~ 0
+SPI2_MISO
+Text Label 5925 6575 0    60   ~ 0
+SPI2_SCLK
+Text Label 5925 6475 0    60   ~ 0
+SPI2_NSS
+Wire Wire Line
+	6400 6775 5825 6775
+Wire Wire Line
+	5825 6575 6400 6575
+Wire Wire Line
+	5825 6475 6400 6475
+Wire Wire Line
+	5825 6675 6400 6675
+Text HLabel 10975 5250 2    60   Input ~ 0
+VIN
+Wire Wire Line
+	10975 5250 10125 5250
+Text Label 10300 5250 0    60   ~ 0
+PSU_IN
+Text Label 5950 7075 0    60   ~ 0
+PSU_IN
+Wire Wire Line
+	6400 7075 5825 7075
+$Comp
+L GND #PWR42
+U 1 1 58246BF1
+P 5825 7175
+F 0 "#PWR42" H 5825 6925 50  0001 C CNN
+F 1 "GND" H 5830 7002 50  0000 C CNN
+F 2 "" H 5825 7175 50  0000 C CNN
+F 3 "" H 5825 7175 50  0000 C CNN
+	1    5825 7175
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR41
+U 1 1 5824B1D0
+P 5325 7175
+F 0 "#PWR41" H 5325 6925 50  0001 C CNN
+F 1 "GND" H 5330 7002 50  0000 C CNN
+F 2 "" H 5325 7175 50  0000 C CNN
+F 3 "" H 5325 7175 50  0000 C CNN
+	1    5325 7175
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

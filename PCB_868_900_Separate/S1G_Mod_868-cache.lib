@@ -318,6 +318,38 @@ X 10 10 350 -150 197 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# 36103205
+#
+DEF 36103205 SH 0 40 Y Y 1 F N
+F0 "SH" -500 200 60 H V C CNN
+F1 "36103205" 350 200 60 H V C CNN
+F2 "PCB_Footprints:36103205" -650 550 60 H I C CNN
+F3 "http://katalog.we-online.de/pbs/datasheet/36103205.pdf" -650 650 60 H I C CNN
+F4 "3.49000" -50 750 60 H I C CNN "Cost"
+F5 "9 Nov 2016" 150 950 60 H I C CNN "Date Created"
+F6 "9 Nov 2016" 150 950 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 250 1050 60 H I C CNN "Designer"
+F8 "2.5mm" 350 1150 60 H I C CNN "Height"
+F9 "Yes" 450 1250 60 H I C CNN "RHoS?"
+F10 "Wurth Electronics Inc" 550 1350 60 H I C CNN "MFR"
+F11 "36103205" 650 1450 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 750 1550 60 H I C CNN "Mounting"
+F13 "None" 850 1650 60 H I C CNN "Pin Count#"
+F14 "Active" 950 1750 60 H I C CNN "Status"
+F15 "N/A" 1050 1850 60 H I C CNN "Tolerance"
+F16 "RF Shield" 1150 1950 60 H I C CNN "Type"
+F17 "N/A" 1250 2050 60 H I C CNN "Voltage"
+F18 "N/A" 1350 2150 60 H I C CNN "Wattage"
+F19 "N/A" 1450 2250 60 H I C CNN "Component-Value"
+F20 "RF Shield Frame 0.827\" (21.00mm) X 0.827\" (21.00mm) Surface Mount" 1550 2350 60 H I C CNN "Description"
+DRAW
+T 0 0 -100 60 0 0 0 RF~Shield~SMT~Frame Normal 0 C C
+S -550 150 600 -200 0 1 0 f
+S 550 -200 550 -200 0 1 0 N
+X GND 1 -750 0 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # ABM10-166-12.000MHZ-T3
 #
 DEF ABM10-166-12.000MHZ-T3 X 0 40 Y Y 1 F N
@@ -570,39 +602,6 @@ P 3 0 1 0 -100 -50 100 -50 100 0 N
 P 4 0 1 0 -50 0 -50 50 50 50 50 0 N
 X ~ 1 -300 -50 200 R 50 50 1 1 I
 X ~ 2 300 -50 200 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# B4B-PH-K-S(LF)(SN)
-#
-DEF B4B-PH-K-S(LF)(SN) J 0 40 Y Y 1 F N
-F0 "J" -50 175 60 H V C CNN
-F1 "B4B-PH-K-S(LF)(SN)" 400 -250 60 H V C CNN
-F2 "PCB_Footprints:B4B-PH-K-S(LF)(SN)" -150 75 60 H I C CNN
-F3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" -275 375 60 H I C CNN
-F4 "0.09682 @ 5000" -175 475 60 H I C CNN "Cost"
-F5 "9 Sept 2016" -75 575 60 H I C CNN "Date Created "
-F6 "9 Sept 2016" 25 675 60 H I C CNN "Date Modified"
-F7 "Adam Vadala-Roth" 125 775 60 H I C CNN "Designer "
-F8 "8mm" 225 875 60 H I C CNN "Height"
-F9 "Yes" 325 975 60 H I C CNN "RHoS?"
-F10 "JST Sales America Inc" 425 1075 60 H I C CNN "MFR"
-F11 "B4B-PH-K-S(LF)(SN)" 525 1175 60 H I C CNN "MFR#"
-F12 "Through Hole" 625 1275 60 H I C CNN "Mounting"
-F13 "4" 725 1375 60 H I C CNN "Pin Count#"
-F14 "Active" 825 1475 60 H I C CNN "Status"
-F15 "N/A" 925 1575 60 H I C CNN "Tolerance"
-F16 "Through Hole vertical connector." 1025 1675 60 H I C CNN "Type"
-F17 "N/A" 1125 1775 60 H I C CNN "Voltage"
-F18 "N/A" 1225 1875 60 H I C CNN "Wattage"
-F19 "N/A" 1325 1975 60 H I C CNN "Component-Value"
-F20 "4 Positions Header, Shrouded Connector 0.079\" (2.00mm) Through Hole Tin" 1425 2075 60 H I C CNN "Description"
-DRAW
-S -100 125 0 -200 0 1 0 N
-X ~ 1 200 75 200 L 50 50 1 1 B
-X ~ 2 200 0 200 L 50 50 1 1 B
-X ~ 3 200 -75 200 L 50 50 1 1 B
-X ~ 4 200 -150 200 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
@@ -874,33 +873,53 @@ X ~ 2 200 0 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# CONN_02X03
+# CONN_02X08
 #
-DEF CONN_02X03 P 0 1 Y N 1 F N
-F0 "P" 0 200 50 H V C CNN
-F1 "CONN_02X03" 0 -200 50 H V C CNN
+DEF CONN_02X08 P 0 1 Y N 1 F N
+F0 "P" 0 450 50 H V C CNN
+F1 "CONN_02X08" 0 0 50 V V C CNN
 F2 "" 0 -1200 50 H V C CNN
 F3 "" 0 -1200 50 H V C CNN
 $FPLIST
- Pin_Header_Straight_2X03
- Pin_Header_Angled_2X03
- Socket_Strip_Straight_2X03
- Socket_Strip_Angled_2X03
+ Pin_Header_Straight_2X08
+ Pin_Header_Angled_2X08
+ Socket_Strip_Straight_2X08
+ Socket_Strip_Angled_2X08
 $ENDFPLIST
 DRAW
-S -100 -95 -50 -105 0 1 0 N
-S -100 5 -50 -5 0 1 0 N
-S -100 105 -50 95 0 1 0 N
-S -100 150 100 -150 0 1 0 N
-S 50 -95 100 -105 0 1 0 N
-S 50 5 100 -5 0 1 0 N
-S 50 105 100 95 0 1 0 N
-X P1 1 -250 100 150 R 50 50 1 1 P
-X P2 2 250 100 150 L 50 50 1 1 P
-X P3 3 -250 0 150 R 50 50 1 1 P
-X P4 4 250 0 150 L 50 50 1 1 P
-X P5 5 -250 -100 150 R 50 50 1 1 P
-X P6 6 250 -100 150 L 50 50 1 1 P
+S -100 -345 -50 -355 0 1 0 N
+S -100 -245 -50 -255 0 1 0 N
+S -100 -145 -50 -155 0 1 0 N
+S -100 -45 -50 -55 0 1 0 N
+S -100 55 -50 45 0 1 0 N
+S -100 155 -50 145 0 1 0 N
+S -100 255 -50 245 0 1 0 N
+S -100 355 -50 345 0 1 0 N
+S -100 400 100 -400 0 1 0 N
+S 50 -345 100 -355 0 1 0 N
+S 50 -245 100 -255 0 1 0 N
+S 50 -145 100 -155 0 1 0 N
+S 50 -45 100 -55 0 1 0 N
+S 50 55 100 45 0 1 0 N
+S 50 155 100 145 0 1 0 N
+S 50 255 100 245 0 1 0 N
+S 50 355 100 345 0 1 0 N
+X P1 1 -250 350 150 R 50 50 1 1 P
+X P2 2 250 350 150 L 50 50 1 1 P
+X P3 3 -250 250 150 R 50 50 1 1 P
+X P4 4 250 250 150 L 50 50 1 1 P
+X P5 5 -250 150 150 R 50 50 1 1 P
+X P6 6 250 150 150 L 50 50 1 1 P
+X P7 7 -250 50 150 R 50 50 1 1 P
+X P8 8 250 50 150 L 50 50 1 1 P
+X P9 9 -250 -50 150 R 50 50 1 1 P
+X P10 10 250 -50 150 L 50 50 1 1 P
+X P11 11 -250 -150 150 R 50 50 1 1 P
+X P12 12 250 -150 150 L 50 50 1 1 P
+X P13 13 -250 -250 150 R 50 50 1 1 P
+X P14 14 250 -250 150 L 50 50 1 1 P
+X P15 15 -250 -350 150 R 50 50 1 1 P
+X P16 16 250 -350 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -1627,37 +1646,6 @@ P 4 0 1 0 -50 50 -50 -50 0 0 -50 50 N
 P 4 0 1 0 0 0 50 50 50 -50 0 0 N
 X ~ 1 -250 0 200 R 50 50 1 1 P
 X ~ 2 250 0 200 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# S2B-PH-K-S(LF)(SN)
-#
-DEF S2B-PH-K-S(LF)(SN) J 0 40 Y Y 1 F N
-F0 "J" -50 175 60 H V C CNN
-F1 "S2B-PH-K-S(LF)(SN)" 375 -100 60 H V C CNN
-F2 "PCB_Footprints:S2B-PH-K-S(LF)(SN)" -150 75 60 H I C CNN
-F3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" -275 375 60 H I C CNN
-F4 "0.06152 @ 5000" -175 475 60 H I C CNN "Cost"
-F5 "9 Sept 2016" -75 575 60 H I C CNN "Date Created "
-F6 "9 Sept 2016" 25 675 60 H I C CNN "Date Modified"
-F7 "Adam Vadala-Roth" 125 775 60 H I C CNN "Designer "
-F8 "5.5mm" 225 875 60 H I C CNN "Height"
-F9 "Yes" 325 975 60 H I C CNN "RHoS?"
-F10 "JST Sales America Inc" 425 1075 60 H I C CNN "MFR"
-F11 "S2B-PH-K-S(LF)(SN)" 525 1175 60 H I C CNN "MFR#"
-F12 "Through Hole" 625 1275 60 H I C CNN "Mounting"
-F13 "2" 725 1375 60 H I C CNN "Pin Count#"
-F14 "Active" 825 1475 60 H I C CNN "Status"
-F15 "N/A" 925 1575 60 H I C CNN "Tolerance"
-F16 "Through Hole right angle connector." 1025 1675 60 H I C CNN "Type"
-F17 "N/A" 1125 1775 60 H I C CNN "Voltage"
-F18 "N/A" 1225 1875 60 H I C CNN "Wattage"
-F19 "N/A" 1325 1975 60 H I C CNN "Component-Value"
-F20 "2 Positions Header, Shrouded Connector 0.079\" (2.00mm) Through Hole, Right Angle Tin" 1425 2075 60 H I C CNN "Description"
-DRAW
-S -100 125 0 -50 0 1 0 N
-X ~ 1 200 75 200 L 50 50 1 1 B
-X ~ 2 200 0 200 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #

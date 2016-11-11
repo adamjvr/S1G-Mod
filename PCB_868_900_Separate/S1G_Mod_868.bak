@@ -36,11 +36,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "S1G 915MHZ RF RX/TX Module Separate PA/LNA Match"
+Date "2016-11-07"
+Rev "0.1a"
+Comp "GhostPCB"
+Comment1 "Engineered and Drawn By: Adam Vadala-Roth"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -503,10 +503,10 @@ F 3 "" H 725 4875 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR4
+L GND #PWR3
 U 1 1 58174222
 P 2000 5050
-F 0 "#PWR4" H 2000 4800 50  0001 C CNN
+F 0 "#PWR3" H 2000 4800 50  0001 C CNN
 F 1 "GND" H 2005 4877 50  0000 C CNN
 F 2 "" H 2000 5050 50  0000 C CNN
 F 3 "" H 2000 5050 50  0000 C CNN
@@ -514,10 +514,10 @@ F 3 "" H 2000 5050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR6
+L GND #PWR5
 U 1 1 581744A7
 P 2800 5050
-F 0 "#PWR6" H 2800 4800 50  0001 C CNN
+F 0 "#PWR5" H 2800 4800 50  0001 C CNN
 F 1 "GND" H 2805 4877 50  0000 C CNN
 F 2 "" H 2800 5050 50  0000 C CNN
 F 3 "" H 2800 5050 50  0000 C CNN
@@ -609,10 +609,10 @@ F 20 "RES SMD 10K OHM 1% 1/16W 0402" H 5375 8950 60  0001 C CNN "Description"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR11
+L GND #PWR10
 U 1 1 5816BC64
 P 4000 6500
-F 0 "#PWR11" H 4000 6250 50  0001 C CNN
+F 0 "#PWR10" H 4000 6250 50  0001 C CNN
 F 1 "GND" H 4005 6327 50  0000 C CNN
 F 2 "" H 4000 6500 50  0000 C CNN
 F 3 "" H 4000 6500 50  0000 C CNN
@@ -852,10 +852,10 @@ F 20 "0.10µF 10V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039\" L x 0.020\" W
 	0    1    -1   0   
 $EndComp
 $Comp
-L GND #PWR9
+L GND #PWR8
 U 1 1 5817CEBD
 P 3650 2200
-F 0 "#PWR9" H 3650 1950 50  0001 C CNN
+F 0 "#PWR8" H 3650 1950 50  0001 C CNN
 F 1 "GND" H 3655 2027 50  0000 C CNN
 F 2 "" H 3650 2200 50  0000 C CNN
 F 3 "" H 3650 2200 50  0000 C CNN
@@ -874,10 +874,10 @@ F 3 "" H 4450 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR7
+L +3.3V #PWR6
 U 1 1 5817CF98
 P 3150 1750
-F 0 "#PWR7" H 3150 1600 50  0001 C CNN
+F 0 "#PWR6" H 3150 1600 50  0001 C CNN
 F 1 "+3.3V" H 3165 1923 50  0000 C CNN
 F 2 "" H 3150 1750 50  0000 C CNN
 F 3 "" H 3150 1750 50  0000 C CNN
@@ -1081,10 +1081,10 @@ F 20 "2.2pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR8
+L GND #PWR7
 U 1 1 5818E84F
 P 3600 5050
-F 0 "#PWR8" H 3600 4800 50  0001 C CNN
+F 0 "#PWR7" H 3600 4800 50  0001 C CNN
 F 1 "GND" H 3605 4877 50  0000 C CNN
 F 2 "" H 3600 5050 50  0000 C CNN
 F 3 "" H 3600 5050 50  0000 C CNN
@@ -1092,10 +1092,10 @@ F 3 "" H 3600 5050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR10
+L GND #PWR9
 U 1 1 58195E9E
 P 3675 4100
-F 0 "#PWR10" H 3675 3850 50  0001 C CNN
+F 0 "#PWR9" H 3675 3850 50  0001 C CNN
 F 1 "GND" H 3680 3927 50  0000 C CNN
 F 2 "" H 3675 4100 50  0000 C CNN
 F 3 "" H 3675 4100 50  0000 C CNN
@@ -1103,10 +1103,10 @@ F 3 "" H 3675 4100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR5
+L GND #PWR4
 U 1 1 58196935
 P 2800 3025
-F 0 "#PWR5" H 2800 2775 50  0001 C CNN
+F 0 "#PWR4" H 2800 2775 50  0001 C CNN
 F 1 "GND" H 2805 2852 50  0000 C CNN
 F 2 "" H 2800 3025 50  0000 C CNN
 F 3 "" H 2800 3025 50  0000 C CNN
@@ -1672,6 +1672,7 @@ F5 "SPI_SCLK" I L 9375 3400 60
 F6 "MCU_IRQ" I L 9375 3600 60 
 F7 "SYNC" I L 9375 3700 60 
 F8 "VBUS" I L 9375 3800 60 
+F9 "VIN" I L 9375 3900 60 
 $EndSheet
 $Comp
 L CUS-12TB SW1
@@ -1728,34 +1729,6 @@ F 19 "N/A" H 3575 7250 60  0001 C CNN "Component-Value"
 F 20 "MOSFET P-CH 30V 2.5A SOT-23" H 3675 7350 60  0001 C CNN "Description"
 	1    2525 6050
 	0    -1   1    0   
-$EndComp
-$Comp
-L S2B-PH-K-S(LF)(SN) J1
-U 1 1 58229495
-P 1050 6050
-F 0 "J1" H 1000 6325 60  0000 C CNN
-F 1 "S2B-PH-K-S(LF)(SN)" H 1450 6250 60  0000 C CNN
-F 2 "PCB_Footprints:S2B-PH-K-S(LF)(SN)" H 900 6125 60  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 775 6425 60  0001 C CNN
-F 4 "0.06152 @ 5000" H 875 6525 60  0001 C CNN "Cost"
-F 5 "9 Sept 2016" H 975 6625 60  0001 C CNN "Date Created "
-F 6 "9 Sept 2016" H 1075 6725 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 1175 6825 60  0001 C CNN "Designer "
-F 8 "5.5mm" H 1275 6925 60  0001 C CNN "Height"
-F 9 "Yes" H 1375 7025 60  0001 C CNN "RHoS?"
-F 10 "JST Sales America Inc" H 1475 7125 60  0001 C CNN "MFR"
-F 11 "S2B-PH-K-S(LF)(SN)" H 1575 7225 60  0001 C CNN "MFR#"
-F 12 "Through Hole" H 1675 7325 60  0001 C CNN "Mounting"
-F 13 "2" H 1775 7425 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 1875 7525 60  0001 C CNN "Status"
-F 15 "N/A" H 1975 7625 60  0001 C CNN "Tolerance"
-F 16 "Through Hole right angle connector." H 2075 7725 60  0001 C CNN "Type"
-F 17 "N/A" H 2175 7825 60  0001 C CNN "Voltage"
-F 18 "N/A" H 2275 7925 60  0001 C CNN "Wattage"
-F 19 "N/A" H 2375 8025 60  0001 C CNN "Component-Value"
-F 20 "2 Positions Header, Shrouded Connector 0.079\" (2.00mm) Through Hole, Right Angle Tin" H 2475 8125 60  0001 C CNN "Description"
-	1    1050 6050
-	1    0    0    1   
 $EndComp
 $Comp
 L M2.5_Hole H1
@@ -1894,17 +1867,6 @@ Wire Wire Line
 Connection ~ 3025 6050
 Wire Wire Line
 	2225 6050 1250 6050
-$Comp
-L GND #PWR3
-U 1 1 582360D6
-P 1250 6125
-F 0 "#PWR3" H 1250 5875 50  0001 C CNN
-F 1 "GND" H 1255 5952 50  0000 C CNN
-F 2 "" H 1250 6125 50  0000 C CNN
-F 3 "" H 1250 6125 50  0000 C CNN
-	1    1250 6125
-	1    0    0    -1  
-$EndComp
 Text Label 1250 6050 0    60   ~ 0
 PSU_IN
 Wire Wire Line
@@ -1970,5 +1932,48 @@ F 19 "50 ohm" H 2025 6375 60  0001 C CNN "Component-Value"
 F 20 "SMA Connector Receptacle, Female Socket 50 Ohm Board Edge, End Launch Solder" H 2125 6475 60  0001 C CNN "Description"
 	1    725  4600
 	-1   0    0    -1  
+$EndComp
+Text Label 9025 3900 0    60   ~ 0
+PSU_IN
+Wire Wire Line
+	9375 3900 8950 3900
+$Comp
+L 36103205 SH1
+U 1 1 5825B3C7
+P 4900 5250
+F 0 "SH1" H 4818 5587 60  0000 C CNN
+F 1 "36103205" H 4818 5481 60  0000 C CNN
+F 2 "PCB_Footprints:36103205" H 4250 5800 60  0001 C CNN
+F 3 "http://katalog.we-online.de/pbs/datasheet/36103205.pdf" H 4250 5900 60  0001 C CNN
+F 4 "3.49000" H 4850 6000 60  0001 C CNN "Cost"
+F 5 "9 Nov 2016" H 5050 6200 60  0001 C CNN "Date Created"
+F 6 "9 Nov 2016" H 5050 6200 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 5150 6300 60  0001 C CNN "Designer"
+F 8 "2.5mm" H 5250 6400 60  0001 C CNN "Height"
+F 9 "Yes" H 5350 6500 60  0001 C CNN "RHoS?"
+F 10 "Wurth Electronics Inc" H 5450 6600 60  0001 C CNN "MFR"
+F 11 "36103205" H 5550 6700 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 5650 6800 60  0001 C CNN "Mounting"
+F 13 "None" H 5750 6900 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 5850 7000 60  0001 C CNN "Status"
+F 15 "N/A" H 5950 7100 60  0001 C CNN "Tolerance"
+F 16 "RF Shield" H 6050 7200 60  0001 C CNN "Type"
+F 17 "N/A" H 6150 7300 60  0001 C CNN "Voltage"
+F 18 "N/A" H 6250 7400 60  0001 C CNN "Wattage"
+F 19 "N/A" H 6350 7500 60  0001 C CNN "Component-Value"
+F 20 "RF Shield Frame 0.827\" (21.00mm) X 0.827\" (21.00mm) Surface Mount" H 6450 7600 60  0001 C CNN "Description"
+	1    4900 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR11
+U 1 1 5825B89E
+P 4150 5250
+F 0 "#PWR11" H 4150 5000 50  0001 C CNN
+F 1 "GND" H 4155 5077 50  0000 C CNN
+F 2 "" H 4150 5250 50  0000 C CNN
+F 3 "" H 4150 5250 50  0000 C CNN
+	1    4150 5250
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
