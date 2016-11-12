@@ -1160,42 +1160,42 @@ F 1 "CONN_02X08" H 5575 7299 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x08" H 5575 5625 50  0001 C CNN
 F 3 "" H 5575 5625 50  0000 C CNN
 	1    5575 6825
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Text Label 6000 6975 0    60   ~ 0
 USART1_TX
-Text Label 6000 6875 0    60   ~ 0
+Text Label 4825 6975 0    60   ~ 0
 USART1_RX
 Wire Wire Line
 	5825 6975 6625 6975
 Wire Wire Line
-	5825 6875 6625 6875
-Text Label 5950 6775 0    60   ~ 0
+	4525 6975 5325 6975
+Text Label 4825 6575 0    60   ~ 0
 SPI2_MOSI
-Text Label 5925 6675 0    60   ~ 0
-SPI2_MISO
 Text Label 5925 6575 0    60   ~ 0
+SPI2_MISO
+Text Label 4825 6475 0    60   ~ 0
 SPI2_SCLK
 Text Label 5925 6475 0    60   ~ 0
 SPI2_NSS
 Wire Wire Line
-	6400 6775 5825 6775
+	5325 6575 4750 6575
 Wire Wire Line
-	5825 6575 6400 6575
+	4750 6475 5325 6475
 Wire Wire Line
 	5825 6475 6400 6475
 Wire Wire Line
-	5825 6675 6400 6675
+	5825 6575 6400 6575
 Text HLabel 10975 5250 2    60   Input ~ 0
 VIN
 Wire Wire Line
 	10975 5250 10125 5250
 Text Label 10300 5250 0    60   ~ 0
 PSU_IN
-Text Label 5950 7075 0    60   ~ 0
+Text Label 4875 7175 0    60   ~ 0
 PSU_IN
 Wire Wire Line
-	6400 7075 5825 7075
+	5325 7175 4750 7175
 $Comp
 L GND #PWR42
 U 1 1 58246BF1
@@ -1210,12 +1210,60 @@ $EndComp
 $Comp
 L GND #PWR41
 U 1 1 5824B1D0
-P 5325 7175
-F 0 "#PWR41" H 5325 6925 50  0001 C CNN
-F 1 "GND" H 5330 7002 50  0000 C CNN
-F 2 "" H 5325 7175 50  0000 C CNN
-F 3 "" H 5325 7175 50  0000 C CNN
-	1    5325 7175
+P 4350 7175
+F 0 "#PWR41" H 4350 6925 50  0001 C CNN
+F 1 "GND" H 4355 7002 50  0000 C CNN
+F 2 "" H 4350 7175 50  0000 C CNN
+F 3 "" H 4350 7175 50  0000 C CNN
+	1    4350 7175
 	1    0    0    -1  
 $EndComp
+Text Label 6500 4200 0    60   ~ 0
+GPIO_PB0
+Text Label 6500 4300 0    60   ~ 0
+GPIO_PB1
+Text Label 6500 4400 0    60   ~ 0
+GPIO_PB2
+Text Label 6500 5200 0    60   ~ 0
+GPIO_PB10
+Text Label 6500 5300 0    60   ~ 0
+GPIO_PB11
+Text Label 6675 3300 0    60   ~ 0
+GPIO_PA8
+Wire Wire Line
+	7225 3300 6500 3300
+Wire Wire Line
+	7050 4200 6500 4200
+Wire Wire Line
+	7050 4300 6500 4300
+Wire Wire Line
+	7050 4400 6500 4400
+Wire Wire Line
+	7050 5200 6500 5200
+Wire Wire Line
+	7050 5300 6500 5300
+Text Label 5925 6675 0    60   ~ 0
+GPIO_PB0
+Text Label 4825 6675 0    60   ~ 0
+GPIO_PB1
+Text Label 5825 6775 0    60   ~ 0
+GPIO_PB2
+Wire Wire Line
+	6375 6675 5825 6675
+Wire Wire Line
+	5325 6675 4775 6675
+Wire Wire Line
+	6375 6775 5825 6775
+Text Label 4825 6775 0    60   ~ 0
+GPIO_PB10
+Text Label 5825 6875 0    60   ~ 0
+GPIO_PB11
+Wire Wire Line
+	5325 6775 4775 6775
+Wire Wire Line
+	6375 6875 5825 6875
+Text Label 4825 6875 0    60   ~ 0
+GPIO_PA8
+Wire Wire Line
+	5325 6875 4600 6875
 $EndSCHEMATC
