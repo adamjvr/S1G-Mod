@@ -291,10 +291,10 @@ F 20 "Blue 470nm LED Indication - Discrete 2.8V 0603 (1608 Metric)" H 10025 7025
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR30
+L GND #PWR31
 U 1 1 58168376
 P 8575 5475
-F 0 "#PWR30" H 8575 5225 50  0001 C CNN
+F 0 "#PWR31" H 8575 5225 50  0001 C CNN
 F 1 "GND" H 8580 5302 50  0000 C CNN
 F 2 "" H 8575 5475 50  0000 C CNN
 F 3 "" H 8575 5475 50  0000 C CNN
@@ -625,90 +625,6 @@ Text Label 8500 3500 0    60   ~ 0
 SPI_MISO
 Text Label 8500 3600 0    60   ~ 0
 MCU_IRQ
-$Comp
-L ABS07-32.768KHZ-9-T X1
-U 1 1 58172E0C
-P 6975 1825
-F 0 "X1" H 6950 2162 60  0000 C CNN
-F 1 "ABS07-32.768KHZ-9-T" H 6925 2075 60  0000 C CNN
-F 2 "PCB_Footprints:ABS07-32.768KHZ-9-T" H 6925 1725 60  0001 C CNN
-F 3 "http://www.abracon.com/Resonators/ABS07.pdf" H 9275 3625 60  0001 C CNN
-F 4 "0.18000 @ 3K" H 6975 2125 60  0001 C CNN "Cost"
-F 5 "20 Aug 2016" H 7075 2225 60  0001 C CNN "Date Created "
-F 6 "20 Aug 2016" H 7175 2325 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 7275 2425 60  0001 C CNN "Designer "
-F 8 "2.5mm" H 7375 2525 60  0001 C CNN "Height"
-F 9 "Yes" H 7475 2625 60  0001 C CNN "RHoS?"
-F 10 "Abracon LLC" H 7675 2825 60  0001 C CNN "MFR"
-F 11 "ABS07-32.768KHZ-9-T" H 7775 2925 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 7875 3025 60  0001 C CNN "Mounting"
-F 13 "2" H 7975 3125 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 8075 3225 60  0001 C CNN "Status"
-F 15 "±20ppm" H 8175 3325 60  0001 C CNN "Tolerance"
-F 16 "Crystal Oscillator 32.768KHZ" H 8275 3425 60  0001 C CNN "Type"
-F 17 "N/A" H 8375 3525 60  0001 C CNN "Voltage"
-F 18 "N/A" H 8475 3625 60  0001 C CNN "Wattage"
-F 19 "32.768kHz ±20ppm Crystal 9pF 70 kOhm -40°C ~ 85°C Surface Mount 2-SMD, No Lead" H 8575 3725 60  0001 C CNN "Description"
-F 20 "32.768KHZ-9pF-Loading" H 8575 3725 60  0001 C CNN "Component-Value"
-	1    6975 1825
-	1    0    0    -1  
-$EndComp
-$Comp
-L CL05C180GB5NCNC C17
-U 1 1 5817314A
-P 6575 1825
-F 0 "C17" H 6800 2000 60  0000 C CNN
-F 1 "CL05C180GB5NCNC" H 6600 2112 60  0001 C CNN
-F 2 "PCB_Footprints:C0402" H 5825 1875 60  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 5925 1975 60  0001 C CNN
-F 4 "0.00900 @ 5000" H 6025 2075 60  0001 C CNN "Cost"
-F 5 "5 Sept 2016" H 6125 2175 60  0001 C CNN "Date Created"
-F 6 "5 Sept 2016" H 6225 2275 60  0001 C CNN "Date Modifed"
-F 7 "Adam Vadala-Roth" H 6325 2375 60  0001 C CNN "Designer"
-F 8 "0.55mm" H 6425 2475 60  0001 C CNN "Height"
-F 9 "Yes" H 6525 2575 60  0001 C CNN "RHoS?"
-F 10 "Samsung Electro-Mechanics America, Inc." H 6625 2675 60  0001 C CNN "MFR"
-F 11 "CL05C180GB5NCNC" H 6725 2775 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 6825 2875 60  0001 C CNN "Mounting"
-F 13 "2" H 6925 2975 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 7025 3075 60  0001 C CNN "Status"
-F 15 "2%" H 7125 3175 60  0001 C CNN "Tolerance"
-F 16 "Ceramic Capacitor 0402" H 7225 3275 60  0001 C CNN "Type"
-F 17 "50V" H 7325 3375 60  0001 C CNN "Voltage"
-F 18 "N/A" H 7875 3375 60  0001 C CNN "Wattage"
-F 19 "18pF" H 6750 1900 60  0000 C CNN "Componen-Value"
-F 20 "18pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 8075 3575 60  0001 C CNN "Description"
-	1    6575 1825
-	-1   0    0    1   
-$EndComp
-$Comp
-L CL05C180GB5NCNC C20
-U 1 1 581732D7
-P 7325 1825
-F 0 "C20" H 7450 1700 60  0000 C CNN
-F 1 "CL05C180GB5NCNC" H 7350 2112 60  0001 C CNN
-F 2 "PCB_Footprints:C0402" H 6575 1875 60  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 6675 1975 60  0001 C CNN
-F 4 "0.00900 @ 5000" H 6775 2075 60  0001 C CNN "Cost"
-F 5 "5 Sept 2016" H 6875 2175 60  0001 C CNN "Date Created"
-F 6 "5 Sept 2016" H 6975 2275 60  0001 C CNN "Date Modifed"
-F 7 "Adam Vadala-Roth" H 7075 2375 60  0001 C CNN "Designer"
-F 8 "0.55mm" H 7175 2475 60  0001 C CNN "Height"
-F 9 "Yes" H 7275 2575 60  0001 C CNN "RHoS?"
-F 10 "Samsung Electro-Mechanics America, Inc." H 7375 2675 60  0001 C CNN "MFR"
-F 11 "CL05C180GB5NCNC" H 7475 2775 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 7575 2875 60  0001 C CNN "Mounting"
-F 13 "2" H 7675 2975 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 7775 3075 60  0001 C CNN "Status"
-F 15 "2%" H 7875 3175 60  0001 C CNN "Tolerance"
-F 16 "Ceramic Capacitor 0402" H 7975 3275 60  0001 C CNN "Type"
-F 17 "50V" H 8075 3375 60  0001 C CNN "Voltage"
-F 18 "N/A" H 8625 3375 60  0001 C CNN "Wattage"
-F 19 "18pF" H 7500 1775 60  0000 C CNN "Componen-Value"
-F 20 "18pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 8825 3575 60  0001 C CNN "Description"
-	1    7325 1825
-	1    0    0    -1  
-$EndComp
 $Comp
 L GND #PWR23
 U 1 1 58175F58
@@ -2055,5 +1971,132 @@ F 19 "1k" H 4150 7219 60  0000 C CNN "Component-Value"
 F 20 "RES SMD 1K OHM 1% 1/16W 0402" H 5550 9400 60  0001 C CNN "Description"
 	1    4150 7350
 	-1   0    0    1   
+$EndComp
+$Comp
+L CL10B224JO8NNNC C33
+U 1 1 582AEBE4
+P 8225 2100
+F 0 "C33" H 8200 2493 60  0000 C CNN
+F 1 "CL10B224JO8NNNC" H 8200 2387 60  0000 C CNN
+F 2 "PCB_Footprints:C0402" H 8475 2150 60  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/mlcc/__icsFiles/afieldfile/2014/11/05&fileName=C_CL10B224JO8NNNC.pdf" H 8475 2150 60  0001 C CNN
+F 4 "0.03186 @ 4000" H 8125 2350 60  0001 C CNN "Cost"
+F 5 "28 Oct 2016" H 8225 2450 60  0001 C CNN "Date Created"
+F 6 "28 Oct 2016" H 8325 2550 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 8425 2650 60  0001 C CNN "Designer"
+F 8 "0.9mm" H 8525 2750 60  0001 C CNN "Height"
+F 9 "Yes" H 8625 2850 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 8725 2950 60  0001 C CNN "MFR"
+F 11 "CL10B224JO8NNNC" H 8825 3050 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 8925 3150 60  0001 C CNN "Mounting"
+F 13 "2" H 9025 3250 60  0001 C CNN "Pint Count#"
+F 14 "Active" H 9125 3350 60  0001 C CNN "Status"
+F 15 "5%" H 9225 3450 60  0001 C CNN "Tolerance"
+F 16 "Ceramic Capacitor 0402" H 9325 3550 60  0001 C CNN "Type"
+F 17 "16V" H 9425 3650 60  0001 C CNN "Voltage"
+F 18 "N/A" H 9525 3750 60  0001 C CNN "Wattage"
+F 19 "0.22uF" H 8200 2281 60  0000 C CNN "Component-Value"
+F 20 "0.22µF 16V Ceramic Capacitor X7R 0603 (1608 Metric) 0.063\" L x 0.031\" W (1.60mm x 0.80mm)" H 9725 3950 60  0001 C CNN "Description"
+	1    8225 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7975 2100 7100 2100
+Wire Wire Line
+	7100 2100 7100 2550
+$Comp
+L GND #PWR30
+U 1 1 582AF362
+P 8425 2100
+F 0 "#PWR30" H 8425 1850 50  0001 C CNN
+F 1 "GND" H 8430 1927 50  0000 C CNN
+F 2 "" H 8425 2100 50  0000 C CNN
+F 3 "" H 8425 2100 50  0000 C CNN
+	1    8425 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L ABS05-32.768KHZ-9-T X1
+U 1 1 582922F8
+P 6975 1825
+F 0 "X1" H 6950 2162 60  0000 C CNN
+F 1 "ABS05-32.768KHZ-9-T" H 6950 2056 60  0000 C CNN
+F 2 "PCB_Footprints:ABS05-32.768KHZ-9-T" H 6925 1725 60  0001 C CNN
+F 3 "http://www.abracon.com/Resonators/ABS05.pdf" H 9275 3625 60  0001 C CNN
+F 4 "0.64515 @ 1000" H 6975 2125 60  0001 C CNN "Cost"
+F 5 "13 Nov 2016" H 7075 2225 60  0001 C CNN "Date Created "
+F 6 "13 Nov 2016" H 7175 2325 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 7275 2425 60  0001 C CNN "Designer "
+F 8 "2.5mm" H 7375 2525 60  0001 C CNN "Height"
+F 9 "Yes" H 7475 2625 60  0001 C CNN "RHoS?"
+F 10 "Abracon LLC" H 7675 2825 60  0001 C CNN "MFR"
+F 11 "ABS05-32.768KHZ-9-T" H 7775 2925 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 7875 3025 60  0001 C CNN "Mounting"
+F 13 "2" H 7975 3125 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 8075 3225 60  0001 C CNN "Status"
+F 15 "±20ppm" H 8175 3325 60  0001 C CNN "Tolerance"
+F 16 "Crystal Oscillator 32.768KHZ" H 8275 3425 60  0001 C CNN "Type"
+F 17 "N/A" H 8375 3525 60  0001 C CNN "Voltage"
+F 18 "N/A" H 8475 3625 60  0001 C CNN "Wattage"
+F 19 "32.768kHz ±20ppm Crystal 9pF 90 kOhm -40°C ~ 85°C Surface Mount 2-SMD" H 8575 3725 60  0001 C CNN "Description"
+F 20 "32.768KHZ-9pF-Loading" H 8575 3725 60  0001 C CNN "Component-Value"
+	1    6975 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L CL05C090CB5NNNC C20
+U 1 1 5829243B
+P 7325 1825
+F 0 "C20" H 7325 1975 60  0000 C CNN
+F 1 "CL05C090CB5NNNC" H 7350 2112 60  0001 C CNN
+F 2 "PCB_Footprints:C0402" H 6575 1875 60  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05C090CB5NNNC.pdf" H 6675 1975 60  0001 C CNN
+F 4 "0.00550 @ 5000" H 6775 2075 60  0001 C CNN "Cost"
+F 5 "5 Sept 2016" H 6875 2175 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 6975 2275 60  0001 C CNN "Date Modifed"
+F 7 "Adam Vadala-Roth" H 7075 2375 60  0001 C CNN "Designer"
+F 8 "0.55mm" H 7175 2475 60  0001 C CNN "Height"
+F 9 "Yes" H 7275 2575 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 7375 2675 60  0001 C CNN "MFR"
+F 11 "CL05C090CB5NNNC" H 7475 2775 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 7575 2875 60  0001 C CNN "Mounting"
+F 13 "2" H 7675 2975 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 7775 3075 60  0001 C CNN "Status"
+F 15 "0.25pF" H 7875 3175 60  0001 C CNN "Tolerance"
+F 16 "Ceramic Capacitor 0402" H 7975 3275 60  0001 C CNN "Type"
+F 17 "50V" H 8075 3375 60  0001 C CNN "Voltage"
+F 18 "N/A" H 8625 3375 60  0001 C CNN "Wattage"
+F 19 "9pF" H 7325 1675 60  0000 C CNN "Componen-Value"
+F 20 "9pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 8825 3575 60  0001 C CNN "Description"
+	1    7325 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L CL05C090CB5NNNC C17
+U 1 1 58292F2A
+P 6525 1825
+F 0 "C17" H 6525 1975 60  0000 C CNN
+F 1 "CL05C090CB5NNNC" H 6550 2112 60  0001 C CNN
+F 2 "PCB_Footprints:C0402" H 5775 1875 60  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05C090CB5NNNC.pdf" H 5875 1975 60  0001 C CNN
+F 4 "0.00550 @ 5000" H 5975 2075 60  0001 C CNN "Cost"
+F 5 "5 Sept 2016" H 6075 2175 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 6175 2275 60  0001 C CNN "Date Modifed"
+F 7 "Adam Vadala-Roth" H 6275 2375 60  0001 C CNN "Designer"
+F 8 "0.55mm" H 6375 2475 60  0001 C CNN "Height"
+F 9 "Yes" H 6475 2575 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 6575 2675 60  0001 C CNN "MFR"
+F 11 "CL05C090CB5NNNC" H 6675 2775 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 6775 2875 60  0001 C CNN "Mounting"
+F 13 "2" H 6875 2975 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 6975 3075 60  0001 C CNN "Status"
+F 15 "0.25pF" H 7075 3175 60  0001 C CNN "Tolerance"
+F 16 "Ceramic Capacitor 0402" H 7175 3275 60  0001 C CNN "Type"
+F 17 "50V" H 7275 3375 60  0001 C CNN "Voltage"
+F 18 "N/A" H 7825 3375 60  0001 C CNN "Wattage"
+F 19 "9pF" H 6525 1675 60  0000 C CNN "Componen-Value"
+F 20 "9pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 8025 3575 60  0001 C CNN "Description"
+	1    6525 1825
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
