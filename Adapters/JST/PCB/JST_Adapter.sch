@@ -115,9 +115,9 @@ Text Label 3625 3000 0    60   ~ 0
 SPI2_SCLK
 Text Label 3650 3100 0    60   ~ 0
 SPI2_MOSI
-Text Label 2100 3100 0    60   ~ 0
+Text Label 2200 3100 0    60   ~ 0
 SPI2_MISO
-Text Label 2100 3000 0    60   ~ 0
+Text Label 2200 3000 0    60   ~ 0
 SPI2_NSS
 Text Label 2300 3500 0    60   ~ 0
 USART1_RX

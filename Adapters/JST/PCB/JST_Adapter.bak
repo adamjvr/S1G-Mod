@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:HydroPWNics_Lib
+LIBS:JST_Adapter-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -110,26 +111,26 @@ F 20 "4 Positions Header, Shrouded Connector 0.079\" (2.00mm) Through Hole Tin" 
 	1    4450 2950
 	1    0    0    -1  
 $EndComp
-Text Label 2325 3000 0    60   ~ 0
+Text Label 3625 3000 0    60   ~ 0
 SPI2_SCLK
-Text Label 2325 3100 0    60   ~ 0
+Text Label 3650 3100 0    60   ~ 0
 SPI2_MOSI
-Text Label 3325 3100 0    60   ~ 0
+Text Label 2100 3100 0    60   ~ 0
 SPI2_MISO
-Text Label 3325 3000 0    60   ~ 0
+Text Label 2100 3000 0    60   ~ 0
 SPI2_NSS
 Text Label 2300 3500 0    60   ~ 0
 USART1_RX
 Text Label 3325 3500 0    60   ~ 0
 USART1_TX
 Wire Wire Line
-	2825 3000 2025 3000
+	4125 3000 3325 3000
 Wire Wire Line
-	2825 3100 2000 3100
+	4150 3100 3325 3100
 Wire Wire Line
-	3325 3000 4050 3000
+	2100 3000 2825 3000
 Wire Wire Line
-	3325 3100 4050 3100
+	2100 3100 2825 3100
 Wire Wire Line
 	3325 3500 4050 3500
 Wire Wire Line
