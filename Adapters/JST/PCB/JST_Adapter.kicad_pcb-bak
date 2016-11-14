@@ -413,7 +413,7 @@
   (gr_line (start 110.8 32.75) (end 117.55 32.75) (layer F.SilkS) (width 0.15) (tstamp 58296650))
   (gr_line (start 110.85 30.7) (end 117.6 30.7) (layer F.SilkS) (width 0.15) (tstamp 5829664F))
   (gr_line (start 110.95 28.75) (end 117.7 28.75) (layer F.SilkS) (width 0.15))
-  (gr_text "S1G-RF USART/SPI Adapter\nCERN OSHWL v1.2\n Nov 2016\nDesigned by adamjvr" (at 104.45 57 90) (layer F.SilkS) (tstamp 58296621)
+  (gr_text "S1G-RF USART/SPI Adapter\nCERN OSHWL v1.2\n Nov 2016\nDesigned by adamjvr" (at 104.45 56.45 90) (layer F.SilkS) (tstamp 58296621)
     (effects (font (size 1.2 1.2) (thickness 0.25)) (justify left))
   )
   (gr_text USART_RX (at 110.5 45.25) (layer F.SilkS) (tstamp 58296606)
