@@ -56,11 +56,11 @@ F 3 "" H 3075 2150 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L S6B-PH-SM4-TB(LF)(SN) J2
+L S6B-PH-SM4-TB(LF)(SN) J1
 U 1 1 58296331
 P 4450 3575
-F 0 "J2" H 4400 3825 60  0000 C CNN
-F 1 "S6B-PH-SM4-TB(LF)(SN)" H 4950 3750 60  0000 C CNN
+F 0 "J1" H 4400 3750 60  0000 C CNN
+F 1 "S6B-PH-SM4-TB(LF)(SN)" H 3975 3150 60  0000 C CNN
 F 2 "PCB_Footprints:S6B-PH-SM4-TB(LF)(SN)" H 4300 3650 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4175 3950 60  0001 C CNN
 F 4 "0.55632 @ 500" H 4275 4050 60  0001 C CNN "Cost"
@@ -81,34 +81,6 @@ F 18 "N/A" H 5675 5450 60  0001 C CNN "Wattage"
 F 19 "N/A" H 5775 5550 60  0001 C CNN "Component-Value"
 F 20 "6 Positions Header, Shrouded Connector 0.079\" (2.00mm) Through Hole Tin" H 5875 5650 60  0001 C CNN "Description"
 	1    4450 3575
-	1    0    0    -1  
-$EndComp
-$Comp
-L S4B-PH-SM4-TB(LF)(SN) J1
-U 1 1 582963F6
-P 4450 2950
-F 0 "J1" H 4400 3225 60  0000 C CNN
-F 1 "S4B-PH-SM4-TB(LF)(SN)" H 4950 3125 60  0000 C CNN
-F 2 "PCB_Footprints:S4B-PH-SM4-TB(LF)(SN)" H 4300 3025 60  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4175 3325 60  0001 C CNN
-F 4 "0.32612 @ 5000" H 4275 3425 60  0001 C CNN "Cost"
-F 5 "9 Sept 2016" H 4375 3525 60  0001 C CNN "Date Created "
-F 6 "9 Sept 2016" H 4475 3625 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 4575 3725 60  0001 C CNN "Designer "
-F 8 "8mm" H 4675 3825 60  0001 C CNN "Height"
-F 9 "Yes" H 4775 3925 60  0001 C CNN "RHoS?"
-F 10 "JST Sales America Inc" H 4875 4025 60  0001 C CNN "MFR"
-F 11 "S4B-PH-SM4-TB(LF)(SN)" H 4975 4125 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 5075 4225 60  0001 C CNN "Mounting"
-F 13 "4" H 5175 4325 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 5275 4425 60  0001 C CNN "Status"
-F 15 "N/A" H 5375 4525 60  0001 C CNN "Tolerance"
-F 16 "Surface Mount Right angle 4 pin connector" H 5475 4625 60  0001 C CNN "Type"
-F 17 "N/A" H 5575 4725 60  0001 C CNN "Voltage"
-F 18 "N/A" H 5675 4825 60  0001 C CNN "Wattage"
-F 19 "N/A" H 5775 4925 60  0001 C CNN "Component-Value"
-F 20 "4 Positions Header, Shrouded Connector 0.079\" (2.00mm) Through Hole Tin" H 5875 5025 60  0001 C CNN "Description"
-	1    4450 2950
 	1    0    0    -1  
 $EndComp
 Text Label 3625 3000 0    60   ~ 0
@@ -150,16 +122,6 @@ Text Label 2300 3700 0    60   ~ 0
 VIN
 Wire Wire Line
 	2000 3700 2825 3700
-Text Label 4650 2875 0    60   ~ 0
-USART1_RX
-Text Label 4650 2950 0    60   ~ 0
-USART1_TX
-Wire Wire Line
-	5200 2875 4650 2875
-Wire Wire Line
-	5200 2950 4650 2950
-Wire Wire Line
-	5200 3025 4650 3025
 $Comp
 L GND #PWR02
 U 1 1 5829737F
@@ -171,39 +133,26 @@ F 3 "" H 4650 3875 50  0000 C CNN
 	1    4650 3875
 	1    0    0    -1  
 $EndComp
-$Comp
-L GND #PWR03
-U 1 1 58297393
-P 4650 3100
-F 0 "#PWR03" H 4650 2850 50  0001 C CNN
-F 1 "GND" H 4655 2927 50  0000 C CNN
-F 2 "" H 4650 3100 50  0000 C CNN
-F 3 "" H 4650 3100 50  0000 C CNN
-	1    4650 3100
-	1    0    0    -1  
-$EndComp
 Text Label 4650 3800 0    60   ~ 0
 VIN
 Wire Wire Line
 	4650 3800 5225 3800
-Text Label 4650 3025 0    60   ~ 0
-VIN
-Text Label 4650 3500 0    60   ~ 0
+Text Label 5975 3200 0    60   ~ 0
 SPI2_SCLK
-Text Label 4650 3575 0    60   ~ 0
+Text Label 5975 3375 0    60   ~ 0
 SPI2_NSS
-Text Label 4650 3650 0    60   ~ 0
+Text Label 5925 3550 0    60   ~ 0
 SPI2_MOSI
-Text Label 4650 3725 0    60   ~ 0
+Text Label 5925 3725 0    60   ~ 0
 SPI2_MISO
 Wire Wire Line
-	5225 3500 4650 3500
+	6500 3200 5925 3200
 Wire Wire Line
-	5225 3575 4650 3575
+	6500 3375 5925 3375
 Wire Wire Line
-	5225 3650 4650 3650
+	6500 3550 5925 3550
 Wire Wire Line
-	5225 3725 4650 3725
+	6500 3725 5925 3725
 $Comp
 L M2.5_Hole H1
 U 1 1 58297A66
@@ -264,4 +213,136 @@ F 3 "" H 2550 4450 197 0001 C CNN
 $EndComp
 NoConn ~ 2300 4250
 NoConn ~ 2300 4450
+$Comp
+L TNPW0402100RBEED R4
+U 1 1 582B1B9A
+P 5625 3725
+F 0 "R4" H 5375 3675 60  0000 C CNN
+F 1 "TNPW0402100RBEED" H 5625 3972 60  0001 C CNN
+F 2 "PCB_Footprints:R0402" H 5225 3975 60  0001 C CNN
+F 3 "http://www.vishay.com/docs/28758/tnpw_e3.pdf" H 5325 4175 60  0001 C CNN
+F 4 "0.11880 @ 2500" H 7175 5675 60  0001 C CNN "Cost"
+F 5 "14 Nov 2016" H 5525 4275 60  0001 C CNN "Date Created"
+F 6 "14 Nov 2016" H 5625 4375 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 5725 4475 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 5825 4575 60  0001 C CNN "Height"
+F 9 "Yes" H 5925 4675 60  0001 C CNN "RHoS?"
+F 10 "Vishay Dale" H 6025 4775 60  0001 C CNN "MFR"
+F 11 "TNPW0402100RBEED" H 6125 4875 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 6225 4975 60  0001 C CNN "Mounting"
+F 13 "2" H 6325 5075 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 6425 5175 60  0001 C CNN "Status"
+F 15 "0.1%" H 6525 5275 60  0001 C CNN "Tolerance"
+F 16 "passive" H 6625 5375 60  0001 C CNN "Type"
+F 17 "N/A" H 6725 5475 60  0001 C CNN "Voltage"
+F 18 "1/16" H 6825 5575 60  0001 C CNN "Wattage"
+F 19 "100r" H 5800 3675 60  0000 C CNN "Component-Value"
+F 20 "RES SMD 100 OHM 0.1% 1/16W 0402" H 7025 5775 60  0001 C CNN "Description"
+	1    5625 3725
+	1    0    0    -1  
+$EndComp
+$Comp
+L TNPW0402100RBEED R3
+U 1 1 582B1F74
+P 5625 3550
+F 0 "R3" H 5375 3500 60  0000 C CNN
+F 1 "TNPW0402100RBEED" H 5625 3797 60  0001 C CNN
+F 2 "PCB_Footprints:R0402" H 5225 3800 60  0001 C CNN
+F 3 "http://www.vishay.com/docs/28758/tnpw_e3.pdf" H 5325 4000 60  0001 C CNN
+F 4 "0.11880 @ 2500" H 7175 5500 60  0001 C CNN "Cost"
+F 5 "14 Nov 2016" H 5525 4100 60  0001 C CNN "Date Created"
+F 6 "14 Nov 2016" H 5625 4200 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 5725 4300 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 5825 4400 60  0001 C CNN "Height"
+F 9 "Yes" H 5925 4500 60  0001 C CNN "RHoS?"
+F 10 "Vishay Dale" H 6025 4600 60  0001 C CNN "MFR"
+F 11 "TNPW0402100RBEED" H 6125 4700 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 6225 4800 60  0001 C CNN "Mounting"
+F 13 "2" H 6325 4900 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 6425 5000 60  0001 C CNN "Status"
+F 15 "0.1%" H 6525 5100 60  0001 C CNN "Tolerance"
+F 16 "passive" H 6625 5200 60  0001 C CNN "Type"
+F 17 "N/A" H 6725 5300 60  0001 C CNN "Voltage"
+F 18 "1/16" H 6825 5400 60  0001 C CNN "Wattage"
+F 19 "100r" H 5800 3500 60  0000 C CNN "Component-Value"
+F 20 "RES SMD 100 OHM 0.1% 1/16W 0402" H 7025 5600 60  0001 C CNN "Description"
+	1    5625 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L TNPW0402100RBEED R2
+U 1 1 582B209D
+P 5625 3375
+F 0 "R2" H 5375 3325 60  0000 C CNN
+F 1 "TNPW0402100RBEED" H 5625 3622 60  0001 C CNN
+F 2 "PCB_Footprints:R0402" H 5225 3625 60  0001 C CNN
+F 3 "http://www.vishay.com/docs/28758/tnpw_e3.pdf" H 5325 3825 60  0001 C CNN
+F 4 "0.11880 @ 2500" H 7175 5325 60  0001 C CNN "Cost"
+F 5 "14 Nov 2016" H 5525 3925 60  0001 C CNN "Date Created"
+F 6 "14 Nov 2016" H 5625 4025 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 5725 4125 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 5825 4225 60  0001 C CNN "Height"
+F 9 "Yes" H 5925 4325 60  0001 C CNN "RHoS?"
+F 10 "Vishay Dale" H 6025 4425 60  0001 C CNN "MFR"
+F 11 "TNPW0402100RBEED" H 6125 4525 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 6225 4625 60  0001 C CNN "Mounting"
+F 13 "2" H 6325 4725 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 6425 4825 60  0001 C CNN "Status"
+F 15 "0.1%" H 6525 4925 60  0001 C CNN "Tolerance"
+F 16 "passive" H 6625 5025 60  0001 C CNN "Type"
+F 17 "N/A" H 6725 5125 60  0001 C CNN "Voltage"
+F 18 "1/16" H 6825 5225 60  0001 C CNN "Wattage"
+F 19 "100r" H 5800 3325 60  0000 C CNN "Component-Value"
+F 20 "RES SMD 100 OHM 0.1% 1/16W 0402" H 7025 5425 60  0001 C CNN "Description"
+	1    5625 3375
+	1    0    0    -1  
+$EndComp
+$Comp
+L TNPW0402100RBEED R1
+U 1 1 582B20B4
+P 5625 3200
+F 0 "R1" H 5375 3150 60  0000 C CNN
+F 1 "TNPW0402100RBEED" H 5625 3447 60  0001 C CNN
+F 2 "PCB_Footprints:R0402" H 5225 3450 60  0001 C CNN
+F 3 "http://www.vishay.com/docs/28758/tnpw_e3.pdf" H 5325 3650 60  0001 C CNN
+F 4 "0.11880 @ 2500" H 7175 5150 60  0001 C CNN "Cost"
+F 5 "14 Nov 2016" H 5525 3750 60  0001 C CNN "Date Created"
+F 6 "14 Nov 2016" H 5625 3850 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 5725 3950 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 5825 4050 60  0001 C CNN "Height"
+F 9 "Yes" H 5925 4150 60  0001 C CNN "RHoS?"
+F 10 "Vishay Dale" H 6025 4250 60  0001 C CNN "MFR"
+F 11 "TNPW0402100RBEED" H 6125 4350 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 6225 4450 60  0001 C CNN "Mounting"
+F 13 "2" H 6325 4550 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 6425 4650 60  0001 C CNN "Status"
+F 15 "0.1%" H 6525 4750 60  0001 C CNN "Tolerance"
+F 16 "passive" H 6625 4850 60  0001 C CNN "Type"
+F 17 "N/A" H 6725 4950 60  0001 C CNN "Voltage"
+F 18 "1/16" H 6825 5050 60  0001 C CNN "Wattage"
+F 19 "100r" H 5800 3150 60  0000 C CNN "Component-Value"
+F 20 "RES SMD 100 OHM 0.1% 1/16W 0402" H 7025 5250 60  0001 C CNN "Description"
+	1    5625 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3725 5325 3725
+Wire Wire Line
+	5325 3550 5250 3550
+Wire Wire Line
+	5250 3550 5250 3650
+Wire Wire Line
+	5250 3650 4650 3650
+Wire Wire Line
+	5325 3375 5175 3375
+Wire Wire Line
+	5175 3375 5175 3575
+Wire Wire Line
+	5175 3575 4650 3575
+Wire Wire Line
+	5325 3200 5100 3200
+Wire Wire Line
+	5100 3200 5100 3500
+Wire Wire Line
+	5100 3500 4650 3500
 $EndSCHEMATC
