@@ -1283,9 +1283,9 @@ F 20 "16 Positions Header, Unshrouded Connector 0.100\" (2.54mm) Through Hole Go
 	1    5525 7075
 	-1   0    0    1   
 $EndComp
-Text Label 3750 7200 0    60   ~ 0
+Text Label 5925 7075 0    60   ~ 0
 GPIO_PA15
-Text Label 3725 7450 0    60   ~ 0
+Text Label 4875 7075 0    60   ~ 0
 GPIO_PB3
 Text Label 6500 4000 0    60   ~ 0
 GPIO_PA15
@@ -1295,4 +1295,8 @@ Wire Wire Line
 	7025 4500 6500 4500
 Wire Wire Line
 	7025 4000 6500 4000
+Wire Wire Line
+	4525 7075 5325 7075
+Wire Wire Line
+	5925 7075 6725 7075
 $EndSCHEMATC
