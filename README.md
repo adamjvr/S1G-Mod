@@ -13,3 +13,23 @@ Hardware Specs
 - SPI connectivity
 - USB bus or battery powered
 - Combined and Separate PA/LNA Match versions of 915MHZ and 433MHZ modules
+
+Combined RX/TX S1G-RF Module:
+![Combined RX/TX S1G-RF](/img/S1G-RF_915_combinedRXTX_2D.png)
+KiCAD 3D OpenGL
+![Combined RX/TX S1G-RF 3D](/img/S1G-RF_915_combinedRXTX_opengl.png)
+
+Separate RX/TX S1G-RF Module:
+![Separate RX/TX S1G-RF](/img/S1G-RF_915_separateTXRX_2D.png)
+KiCAD 3D OpenGL
+![Separate RX/TX S1G-RF 3D](/img/S1G-RF_915_combinedRXTX_opengl.png)
+
+Adapters:
+
+USART JST Adapter
+![USART Adapter](/img/USART_Adapter.png)
+SPI JST Adapter
+![SPI Adapter](/img/SPI_Adapter.png)
+
+Adapter Test Fit:
+![Adapter Test Fit CAD](/img/Adapter3DTestOnShape.png)

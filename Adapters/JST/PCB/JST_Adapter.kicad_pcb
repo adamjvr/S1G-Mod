@@ -2,8 +2,8 @@
 
   (general
     (links 10)
-    (no_connects 9)
-    (area 87.174999 33.924999 118.075001 62.075001)
+    (no_connects 0)
+    (area 86.559505 23.924999 119.9449 62.277401)
     (thickness 1.6)
     (drawings 20)
     (tracks 113)
@@ -24,7 +24,7 @@
     (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
-    (40 Dwgs.User user)
+    (40 Dwgs.User user hide)
     (41 Cmts.User user)
     (42 Eco1.User user)
     (43 Eco2.User user)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 1.016)
+    (last_trace_width 0.1524)
     (user_trace_width 0.1524)
     (user_trace_width 0.1778)
     (user_trace_width 0.508)
@@ -396,7 +396,7 @@
   (module PCB_Footprints:M2.5_HOLE (layer F.Cu) (tedit 57E8C2CA) (tstamp 58293928)
     (at 104.5 39)
     (path /58297C51)
-    (fp_text reference H2 (at 0 3.81) (layer F.SilkS)
+    (fp_text reference H2 (at 2.05 -2.3) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.1)))
     )
     (fp_text value M2.5_Hole (at 0 -3.683) (layer F.Fab)
@@ -489,7 +489,7 @@
   (gr_line (start 110.7 46.85) (end 117.45 46.85) (layer F.SilkS) (width 0.15) (tstamp 58296650))
   (gr_line (start 110.75 44.8) (end 117.5 44.8) (layer F.SilkS) (width 0.15) (tstamp 5829664F))
   (gr_line (start 110.85 42.85) (end 117.6 42.85) (layer F.SilkS) (width 0.15))
-  (gr_text "S1G-RF SPI\nCERN OSHWL v1.2\nNov 2016\nDesigned by adamjvr" (at 101.6 57 90) (layer F.SilkS) (tstamp 58296621)
+  (gr_text "S1G-RF SPI\nCERN OSHWL v1.2\nNov 2016\nDesigned by adamjvr" (at 104.55 56.75 90) (layer F.SilkS) (tstamp 58296621)
     (effects (font (size 1 1) (thickness 0.2)) (justify left))
   )
   (gr_text GND (at 110.55 51.95) (layer F.SilkS) (tstamp 582965FC)
