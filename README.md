@@ -14,6 +14,9 @@ Hardware Specs
 - USB bus or battery powered
 - Combined and Separate PA/LNA Match versions of 915MHZ and 433MHZ modules
 
+Firmware and development at:
+https://github.com/adamjvr/S1G-RF-firmwware
+
 Combined RX/TX S1G-RF Module:
 ![Combined RX/TX S1G-RF](/img/S1G-RF_915_combinedRXTX_2D.png)
 KiCAD 3D OpenGL
